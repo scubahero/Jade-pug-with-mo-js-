@@ -5,4 +5,23 @@ html(lang="en")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
         title Document
+        link(rel="stylesheet", href="style/style.css")
     body
+        
+        .box
+            .animation1(class="item" id="animation1")
+                p animation One
+            .animation2(class="item" id="animation2")
+                p animation Two
+            .animation3(class="item" id="animation3")
+                p animation Three
+            .animation4(class="item" id="animation4")
+                p animation Four
+            .animation5(class="item" id="animation5")
+                p animation Five
+            .animation6(class="item" id="animation6")
+                p All Together
+    
+        //- script sources
+        script(src="./bower_components/mojs/build/mo.min.js")        
+        script(src="custom.js")
